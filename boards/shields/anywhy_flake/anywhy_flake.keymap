@@ -119,6 +119,16 @@
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        HT_L_KP_2: HT_L_KP_2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_L_KP_2";
+            bindings = <&mo>, <&kp>;
+
+            tapping-term-ms = <200>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
