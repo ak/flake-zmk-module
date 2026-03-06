@@ -6,6 +6,12 @@
     combos {
         compatible = "zmk,combos";
 
+        turn_off {
+            bindings = <&soft_off>;
+            key-positions = <41 17>;
+            layers = <1>;
+        };
+
         bt_sel_3 {
             bindings = <&bt3>;
             key-positions = <42 30>;
