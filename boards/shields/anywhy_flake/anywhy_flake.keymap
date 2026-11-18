@@ -20,7 +20,7 @@
 
         lower {
             bindings = <
-&none       &none         &none             &none         &none            &none        &none            &none         &none         &none         &none          &none
+&trans      &trans        &trans            &trans        &trans           &trans       &trans           &trans        &trans        &trans        &trans         &trans
 &kp ESCAPE  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &kp BACKSPACE    &kp LG(T)    &kp KP_MINUS     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL      &trans
 &kp GRAVE   &kp RET       &kp LG(X)         &kp LG(C)     &kp LG(V)        &kp LG(N)    &kp KP_PLUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RETURN     &trans
 &kp TILDE   &kp LG(Z)     &kp C_VOL_DN      &kp C_MUTE    &kp C_VOLUME_UP  &trans       &kp KP_MULTIPLY  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE  &trans
@@ -30,7 +30,7 @@
 
         raise {
             bindings = <
-&none   &none    &none   &none   &none   &none              &none             &none              &none     &none      &none          &none
+&trans  &trans   &trans  &trans  &trans  &trans             &trans            &trans             &trans    &trans     &trans         &trans
 &trans  &trans   &kp F7  &kp F8  &kp F9  &kp LEFT_BRACE     &kp PG_UP         &kp BACKSPACE      &kp UP    &kp DEL    &kp EQUAL      &trans
 &trans  &kp F10  &kp F4  &kp F5  &kp F6  &kp RIGHT_BRACE    &kp PG_DN         &kp LEFT           &kp DOWN  &kp RIGHT  &kp ENTER      &kp GRAVE
 &trans  &trans   &kp F1  &kp F2  &kp F3  &studio_unlock     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS  &kp PIPE   &kp BACKSLASH  &kp TILDE
@@ -40,7 +40,7 @@
 
         numbers {
             bindings = <
-&none         &none             &none             &none             &none             &none               &none             &none             &none             &none             &none             &none
+&trans        &trans            &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans            &trans
 &bt BT_SEL 2  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp BACKSPACE
 &bt BT_SEL 1  &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5        &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0      &kp CAPS
 &bt BT_SEL 0  &trans            &trans            &trans            &trans            &soft_off           &trans            &trans            &trans            &trans            &trans            &trans
