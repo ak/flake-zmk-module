@@ -1,5 +1,9 @@
 #include "anywhy_flake.dtsi"
 
+&kscan0 {
+    status = "disabled";
+};
+
 / {
     mock_kscan: mock_kscan_0 {
         compatible = "zmk,kscan-mock";
